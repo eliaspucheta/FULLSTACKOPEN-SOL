@@ -5,11 +5,13 @@ import Part2 from "./Part2";
 import Part3 from "./Part3";
 
 const Content = (content) => {
-  <div>
-    <Part1 part={content[0]} />
-    <Part2 />
-    <Part3 />
-  </div>;
+  return (
+    <div>
+      <Part1 part={content.content} />
+      <Part2 part={content.content} />
+      <Part3 part={content.content} />
+    </div>
+  );
 };
 
 export default Content;

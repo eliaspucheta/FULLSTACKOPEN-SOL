@@ -1,7 +1,11 @@
 const Part1 = (part) => {
-  console.log(part);
-
-  return <p></p>;
+  return (
+    <p>
+      Part 1: {part.part[0]}
+      {" -Num of exercises: "}
+      {part.part[3]}
+    </p>
+  );
 };
 
 export default Part1;
